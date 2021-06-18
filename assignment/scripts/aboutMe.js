@@ -65,7 +65,7 @@ else {
 // console log "Roll the dice!"
 
 if (luckyNumber == 2 && adventurous == true) {
-  console.log('Roll the dice');
+  console.log('Roll the dice!');
 }
 
 // 15 - Write a conditional that console logs "I can have more pets!"
@@ -74,6 +74,15 @@ if (luckyNumber == 2 && adventurous == true) {
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 
+if (pets < allowedPets) {
+  console.log( 'I can have more pets!' );
+}
+else if (pets == allowedPets) {
+  console.log( 'I have enough pets' );
+}
+else {
+  console.log( 'Oh no, I have too many pets!' );
+}
 // STRETCH GOALS:
 
 // 16 - Make a variable called `mostPets` and a conditional that
